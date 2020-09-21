@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = "APIKit"
-  s.version  = "5.1.0"
+  s.version  = "5.3.0"
   s.summary  = "Type-safe networking abstraction layer that associates request type with response type."
   s.homepage = "https://github.com/ishkawa/APIKit"
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
       "Yosuke Ishikawa" => "y@ishkawa.org"
   }
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.10"
   if s.respond_to?(:watchos)
     s.watchos.deployment_target = "2.0"
